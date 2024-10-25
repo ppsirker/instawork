@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# If you are using SQLite database, ignore the database file
+db.sqlite3
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+*.env
+
+# Node.js / React:
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+venv/
+env/
+venv.bak/
+
+# Frontend build
+frontend/build/
+frontend/.cache/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
