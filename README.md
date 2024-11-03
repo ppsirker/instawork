@@ -2,7 +2,7 @@
 **Setup Instructions**
 
 Clone the Repository: <br>
-   git clone https://ppsirker@bitbucket.org/ppsirker/instawork_interview.git<br>
+   git clone https://github.com/ppsirker/instawork.git<br>
 
 
 Backend (Django)
