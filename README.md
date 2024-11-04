@@ -2,7 +2,9 @@
 **Setup Instructions**
 
 Clone the Repository: <br>
+   ```
    git clone https://github.com/ppsirker/instawork.git<br>
+   ```
 
 
 **Backend (Django)**
@@ -10,7 +12,7 @@ Clone the Repository: <br>
 1. cd instawork/instawork/
 
 2. Create and activate a Virtual Environment<br>
-    python -m venv venv
+    python -m venv venv<br>
     source venv/bin/activate
 
 3. Install Project Dependencies<br>
