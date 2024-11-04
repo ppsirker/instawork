@@ -41,7 +41,7 @@ The Django server will run on http://127.0.0.1:8000.
 
 1. Navigate to the Frontend Directory
 ```
-cd ../frontend
+cd frontend
 ```
 2. Install Node.js Dependencies
 ```
