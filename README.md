@@ -9,12 +9,11 @@ Clone the Repository: <br>
 
 **Backend (Django)**
 
-1. 
 ```
 cd instawork/instawork/
 ```
 
-2. Create and activate a Virtual Environment<br>
+1. Create and activate a Virtual Environment<br>
 ```
 
     python -m venv venv<br>
@@ -26,21 +25,21 @@ cd instawork/instawork/
 ```
     
 
-3. Install Project Dependencies<br>
+2. Install Project Dependencies<br>
 ```
     pip install -r requirements.txt
 ```
     
 
 
-4. Run Migrations:<br>
+3. Run Migrations:<br>
 ```
    python manage.py makemigrations<br>
    python manage.py migrate
 ```
    
 
-5. Run the Django Development Server:<br>
+4. Run the Django Development Server:<br>
 ```
    python manage.py runserver<br>
 ```
