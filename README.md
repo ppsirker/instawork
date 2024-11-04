@@ -33,7 +33,7 @@ python manage.py migrate
 ```
 4. Run the Django Development Server
 ```
-python manage.py runserver<br>
+python manage.py runserver
 ```
 The Django server will run on http://127.0.0.1:8000.
 
