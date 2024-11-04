@@ -1,11 +1,10 @@
 
 **Setup Instructions**
 
-Clone the Repository: <br>
-   ```
-   git clone https://github.com/ppsirker/instawork.git<br>
-   ```
-
+Clone the Repository
+```
+git clone https://github.com/ppsirker/instawork.git
+```
 
 **Backend (Django)**
 
