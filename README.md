@@ -9,7 +9,7 @@ git clone https://github.com/ppsirker/instawork.git
 **Backend (Django)**
 
 ```
-cd instawork/instawork/
+cd instawork/
 ```
 
 1. Create and activate a Virtual Environment
