@@ -5,9 +5,17 @@ Clone the Repository: <br>
    git clone https://github.com/ppsirker/instawork.git<br>
 
 
-Backend (Django)
+**Backend (Django)**
 
-1. cd instawork_interview/instawork/
+1. cd instawork/instawork/
+
+2. Create and activate a Virtual Environment<br>
+    python -m venv venv
+    source venv/bin/activate
+
+3. Install Project Dependencies<br>
+    pip install -r requirements.txt
+
 
 2. Run Migrations:<br>
    python manage.py makemigrations<br>
@@ -17,10 +25,10 @@ Backend (Django)
    python manage.py runserver<br>
    The Django server will run on http://127.0.0.1:8000.
 
-Frontend (React)
+**Frontend (React)**
 
 1. Navigate to the Frontend Directory:<br>
-   cd frontend
+   cd ../frontend
 
 2. Install Node.js Dependencies:<br>
    npm install
