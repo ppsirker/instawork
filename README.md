@@ -9,34 +9,64 @@ Clone the Repository: <br>
 
 **Backend (Django)**
 
-1. cd instawork/instawork/
+1. 
+```
+cd instawork/instawork/
+```
 
 2. Create and activate a Virtual Environment<br>
+```
+
     python -m venv venv<br>
+```
+
+```
+
     source venv/bin/activate
+```
+    
 
 3. Install Project Dependencies<br>
+```
     pip install -r requirements.txt
+```
+    
 
 
-2. Run Migrations:<br>
+4. Run Migrations:<br>
+```
    python manage.py makemigrations<br>
    python manage.py migrate
+```
+   
 
-3. Run the Django Development Server:<br>
+5. Run the Django Development Server:<br>
+```
    python manage.py runserver<br>
+```
+   
    The Django server will run on http://127.0.0.1:8000.
 
 **Frontend (React)**
 
 1. Navigate to the Frontend Directory:<br>
+```
    cd ../frontend
+```
+   
 
 2. Install Node.js Dependencies:<br>
+```
+
    npm install
+```
+
 
 3. Run the React Development Server:<br>
+```
+
    npm start
+```
 
    Open http://localhost:3000 in your browser.
    Navigate through the pages to ensure that adding, editing, and deleting team members works as expected.
